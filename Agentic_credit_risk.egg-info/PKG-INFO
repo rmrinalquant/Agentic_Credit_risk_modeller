@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: Agentic_credit_risk
+Version: 0.0.1
+Summary: Building agentic tool for credit risk evaluation
+Author: Mrinal
+Author-email: rmmrinal.q@gmail.com
+License: MIT
+Requires-Dist: langchain
+Requires-Dist: langchain-core
+Requires-Dist: langchain-community
+Requires-Dist: pypdf
+Requires-Dist: pymupdf
+Requires-Dist: sentence-transformers
+Requires-Dist: faiss-cpu
+Requires-Dist: chromadb
+Requires-Dist: langchain-groq
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

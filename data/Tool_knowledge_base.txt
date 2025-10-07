@@ -1,0 +1,40 @@
+TOOL REGISTRY
+Tool: inspect_schema
+Use when: You need to examine the structure of a dataset.
+Description: Retrieves information about column names, data types, and row counts.
+Inputs: dataset
+Outputs: list of columns, data types, and summary statistics
+Tags: schema, metadata, data quality, column information
+
+
+Tool: check_missing
+Use when: You need to identify missing data.
+Description: Detects missing values in each column of the dataset.
+Inputs: dataset
+Outputs: columns with missing value counts
+Tags: missing values, data quality
+
+Tool: check_duplicates
+Use when: You want to identify duplicate records in the dataset.
+Description: Finds and counts duplicate rows or repeated IDs.
+Inputs:
+  - dataset
+Outputs:
+  - number of duplicate records and their row indices
+Tags: duplicates, data_quality, repeated ids
+
+Tool: check_outliers
+Use when: You want to detect extreme numeric values.
+Description: Identifies outliers in numeric columns using basic statistical methods.
+Inputs: dataset
+Outputs: column-wise count of outliers
+Tags: outliers, numeric_checks, data_quality
+
+Tool: summarize
+Use when: You want to compile results from multiple checks.
+Description: Aggregates results from all data quality tools into one summary object.
+Inputs:
+  - list of check results
+Outputs:
+  - combined summary
+Tags: summary, report
