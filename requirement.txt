@@ -9,4 +9,5 @@ chromadb
 langchain-groq
 langchain-google-genai
 streamlit
+google-generativeai
 python-dotenv
