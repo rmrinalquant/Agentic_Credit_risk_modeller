@@ -1,3 +1,6 @@
+pandas
+numpy
+scikit-learn
 langchain
 langchain-core
 langchain-community
@@ -11,4 +14,3 @@ streamlit
 langchain-google-genai
 google-generativeai
 python-dotenv
--e .
