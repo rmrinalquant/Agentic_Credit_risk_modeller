@@ -7,8 +7,8 @@ sentence-transformers
 faiss-cpu
 chromadb
 langchain-groq
-langchain-google-genai
 streamlit
 langchain-google-genai
 google-generativeai
 python-dotenv
+-e .
