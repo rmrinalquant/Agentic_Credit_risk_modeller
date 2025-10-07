@@ -21,5 +21,5 @@ setup(
     author='Mrinal',
     author_email='rmmrinal.q@gmail.com',
     license='MIT',
-    install_requires= get_requirements('requirement.txt'),
+    install_requires= get_requirements('requirements.txt'),
 )
